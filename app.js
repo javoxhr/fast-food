@@ -78,7 +78,7 @@ products.forEach((el) => {
     wrp.innerHTML += `
      <div class="product">
        <div class="image-wrap">
-        <img src="${el.image}" alt="">
+        <img class="item-img" src="${el.image}" alt="">
        </div>
        <div class="text-wrapper">
          <h3 class="product-title">${el.title}</h3>
