@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+main {
+    padding: 30px 0;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 170px;
+    box-shadow: 1px 3px 7px rgb(192, 4, 4);
+    border-radius: 20px;
+    padding: 15px 20px 40px;
+    position: relative;
+
+    img {
+        width: 85px;
+    }
+}
+
+.image-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-top: 10px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+
+    @media screen and (max-width: 800px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media screen and (max-width: 650px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media screen and (max-width: 500px) {
+        gap: 15px;
+        justify-content: center;
+    }
+}
+
+.add-to-cart {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid rgb(192, 4, 4);
+    background: none;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.app-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 30px;
+}
+
+.top-left {
+    button {
+        padding: 5px;
+        color: #fff;
+        background: none;
+        border-radius: 8px;
+        border: 2px solid rgb(192, 4, 4);
+        cursor: pointer;
+    }
+}
+
+.top-right {
+    button {
+        padding: 5px;
+        color: #fff;
+        background: none;
+        border-radius: 8px;
+        border: 2px solid rgb(192, 4, 4);
+        cursor: pointer;
+    }
+}
+
+.app-title {
+    text-align: center;
+    padding-bottom: 20px;
+}
