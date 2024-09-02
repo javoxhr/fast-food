@@ -62,16 +62,23 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
+}
 
-    @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
+    .products {
         grid-template-columns: repeat(3, 1fr);
     }
+}
 
-    @media screen and (max-width: 650px) {
-        grid-template-columns: repeat(2, 1fr);
+@media screen and (max-width: 650px) {
+    .products {
+        grid-template-columns: repeat(2, 1fr)
     }
 
-    @media screen and (max-width: 500px) {
+}
+
+@media screen and (max-width: 500px) {
+    .products {
         gap: 15px;
         justify-content: center;
     }
@@ -100,7 +107,7 @@ main {
     button {
         padding: 5px;
         color: #fff;
-        background: none;
+        background: transparent;
         border-radius: 8px;
         border: 2px solid rgb(192, 161, 4);
         cursor: pointer;
@@ -111,7 +118,7 @@ main {
     button {
         padding: 5px;
         color: #fff;
-        background: none;
+        background: transparent;
         border-radius: 8px;
         border: 2px solid rgb(192, 161, 4);
         cursor: pointer;
@@ -124,5 +131,5 @@ main {
 }
 
 .item-img {
-    width: 50px;
+    width: 85px;
 }
