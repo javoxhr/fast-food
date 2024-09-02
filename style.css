@@ -103,26 +103,22 @@ main {
     padding: 0 0 30px;
 }
 
-.top-left {
-    button {
-        padding: 5px;
-        color: #fff;
-        background: transparent;
-        border-radius: 8px;
-        border: 2px solid rgb(192, 161, 4);
-        cursor: pointer;
-    }
+.top-left button {
+    padding: 5px;
+    color: #fff;
+    background: #000;
+    border-radius: 8px;
+    border: 2px solid rgb(192, 161, 4);
+    cursor: pointer;
 }
 
-.top-right {
-    button {
-        padding: 5px;
-        color: #fff;
-        background: transparent;
-        border-radius: 8px;
-        border: 2px solid rgb(192, 161, 4);
-        cursor: pointer;
-    }
+.top-right button {
+    padding: 5px;
+    color: #fff;
+    background: #000;
+    border-radius: 8px;
+    border: 2px solid rgb(192, 161, 4);
+    cursor: pointer;
 }
 
 .app-title {
