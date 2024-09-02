@@ -34,7 +34,7 @@ main {
     flex-direction: column;
     align-items: flex-start;
     width: 170px;
-    box-shadow: 1px 3px 7px rgb(192, 4, 4);
+    box-shadow: 1px 3px 7px rgb(192, 161, 4);
     border-radius: 20px;
     padding: 15px 20px 40px;
     position: relative;
@@ -81,7 +81,7 @@ main {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    border: 2px solid rgb(192, 4, 4);
+    border: 2px solid rgb(192, 161, 4);
     background: none;
     position: absolute;
     bottom: 10px;
@@ -102,7 +102,7 @@ main {
         color: #fff;
         background: none;
         border-radius: 8px;
-        border: 2px solid rgb(192, 4, 4);
+        border: 2px solid rgb(192, 161, 4);
         cursor: pointer;
     }
 }
@@ -113,7 +113,7 @@ main {
         color: #fff;
         background: none;
         border-radius: 8px;
-        border: 2px solid rgb(192, 4, 4);
+        border: 2px solid rgb(192, 161, 4);
         cursor: pointer;
     }
 }
